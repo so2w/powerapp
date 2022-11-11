@@ -4,7 +4,7 @@ ListaProductos As screen:
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         BorderColor: =RGBA(0, 89, 178, 1)
         Height: =989
-        Items: ='Registro de productos'
+        Items: =SortByColumns('Registro de productos',"Precio")
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =179
